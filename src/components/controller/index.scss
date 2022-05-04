@@ -1,0 +1,15 @@
+.controller {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    gap: 1.5rem;
+    background-color: RGBA(0,0,0,0.51);
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+
+    &__icon {
+        color: white;
+        cursor: pointer;
+    }
+}
